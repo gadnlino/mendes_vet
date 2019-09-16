@@ -1129,6 +1129,13 @@
     display: none;
 }
 
+.login-main-text, .cadastrar-main-text{
+    font-size: 15px;
+    font-weight: bold;
+    color: #555151;
+    text-align: center;
+}
+
 .login-section{
     background-color: #01d262;
     font-family: "Roboto", sans-serif;
