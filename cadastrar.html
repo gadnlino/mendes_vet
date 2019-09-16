@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Log in</title>
+    <title>Cadastre-se</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
@@ -53,9 +53,109 @@
             </div>
         </section>
         <section class="form-section">
+            
             <div class="simple-login-container">
-                
+
+                <div class="form-selector">
+                    <div class="row">
+                        <div class="col-md-14 form-group">
+                                <ul class="nav nav-pills" >
+                                    <li class="" style="width:50%"><a class="btn btn-md btn-secondary" data-toggle="tab" href="#medico-options">Sou médico</a></li>
+                                    
+                                    <li class=" " style="width:48%"><a class=" btn btn-md btn-secondary" data-toggle="tab" href="#tutor-options">Sou tutor</a></li>
+                                </ul>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="tab-content">
+
+                        <div id="medico-options" class="tab-pane fade in active">
+                            <form action="#">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="form-label" for="nome-input">Nome</label>
+                                            <input type="text" id= "nome-input" class="form-control" placeholder="João da Silva">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                "                       <div class="row">
+                                            <label class="form-label" for="email-input">E-mail</label>
+                                            <input type="text" class="form-control" id="email-input" placeholder="exemplo@exemplo.com">
+                                        </div>"
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="form-label" for="nome-input">CRMV</label>
+                                            <input type="text" class="form-control" placeholder="Digite seu CRMV">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="form-label" for="nome-input">Senha</label>
+                                            <input type="text" class="form-control" placeholder="Digite sua senha">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="form-label" for="nome-input">Confirme a senha</label>
+                                            <input type="text" class="form-control" placeholder="Digite novamente a senha">
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+        
+                        <div id="tutor-options" class="tab-pane fade">
+                            <form action="#">
+                                <div class="form-group">
+                                    <div class="row">
+                                            <label class="form-label" for="nome-input">Nome</label>
+                                            <input type="text" id= "nome-input" class="form-control" placeholder="João da Silva">
+                                        </div>
+                                    </div>
+                                <div class="form-group">
+            "                       <div class="row">
+                                        <label class="form-label" for="email-input">E-mail</label>
+                                        <input type="text" class="form-control" id="email-input" placeholder="exemplo@exemplo.com">
+                                    </div>"
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <label class="form-label" class="cpf-text" for="cpf-input">CPF</label>
+                                        <input type="text" class="form-control" placeholder="11 dígitos">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <label class="form-label" for="nome-input">Senha</label>
+                                        <input type="text" class="form-control" placeholder="Digite sua senha">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <label class="form-label" for="nome-input">Confirme a senha</label>
+                                        <input type="text" class="form-control" placeholder="Digite novamente a senha">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
                 <div class="row">
+                    <div class="col-md-14 form-group">
+                        <input type="submit" class="btn btn-block btn-login" value="Cadastre-se">
+                    </div>
+                </div>
+                <div class="login-options">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="login.html">Já tem cadastro? Entre aqui!</a>
+                        </div>
+                    </div>  
+                </div>
+
+                <!--
+                    <div class="row">
                     <div class="col-md-12 form-group">
                         <p class="usrname-text">Nome</p>
                         <input type="text" class="form-control" placeholder="João da Silva">
@@ -98,6 +198,7 @@
                     </div>  
                 </div>
             </div>
+            -->
         </section>
 
         <footer class="footer">

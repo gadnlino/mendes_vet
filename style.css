@@ -504,7 +504,7 @@
     text-align: center;
 }
 
-.our_cuauses h2. {
+.our_cuauses h2{
     color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 32px;
@@ -1144,7 +1144,7 @@
 .simple-login-container{
     text-align: center; 
     width: 50%;
-    height: 90%;
+    height: 70%;
     max-width:100%;
     padding:4%;
     margin: auto;
@@ -1154,11 +1154,14 @@
     font-size:20px;
 }
 
-.simple-login-container .btn-login{
+.simple-login-container .btn-login, .form-selector .btn{
     background-color:#2e2e2e;
     color:#fff;
     border-radius: 8px;
     transition-duration: 0.4s;
+}
+.form-selector .btn:hover{
+    color:#ffffff;
 }
 
 .usrname-text, .passwd-text{
@@ -1178,4 +1181,8 @@
 
 .login-options a:hover{
     color:rgb(241, 238, 8);
+}
+
+.form-label{
+    color:#ffffff;
 }
