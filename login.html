@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-
 </head>
 
 <body>
@@ -46,21 +45,38 @@
                 </div>
             </section>
         </header>
+
         <section class="login-section">
-            <div class="row">
-                <div class="login-box">
-                    <img class="avatar-img" src="img/avatar.png"><br>
-                    <form>
-                        <p>CPF ou CRMV</p>
-                        <input type="text" name="" placeholder="Digite seu CPF ou CRMV">
-                        <p>Senha</p>
-                        <input type="password" name="" placeholder="Digite sua senha"><br>
-                        <input type="submit" name="" value="Faça login"><br>
-                        <div class="login-options">
-                            <a href="#">Esqueceu sua senha?</a><br>
-                            <a href="cadastrar.html">Não tem uma conta? Crie aqui.</a>
+            <div class="simple-login-container">
+                
+                <div class="row">
+                    <p class="usrname-text">CPF ou CRMV</p>
+                    <div class="col-md-12 form-group">
+                        <input type="text" class="form-control" placeholder="CPF ou CRMV">
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="passwd-text">Senha</p>
+                    <div class="col-md-12 form-group">
+                        <input type="password" placeholder="Senha" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" value="Entrar">
+                    </div>
+                </div>
+                <div class="login-options">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#">Esqueceu sua senha?</a>
                         </div>
-                    </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="cadastrar.html">Não tem uma conta? Crie aqui!</a>
+                        </div>
+                    </div>     
                 </div>
             </div>
         </section>
