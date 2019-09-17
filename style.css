@@ -1160,6 +1160,7 @@
     border-radius: 8px;
     transition-duration: 0.4s;
 }
+
 .form-selector .btn:hover{
     color:#ffffff;
 }
@@ -1185,4 +1186,8 @@
 
 .form-label{
     color:#ffffff;
+}
+
+.form-selector .btn{
+   padding: 2%;
 }
