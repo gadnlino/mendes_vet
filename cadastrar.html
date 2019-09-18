@@ -52,11 +52,28 @@
                 </div>
             </div>
         </section>
+
         <section class="form-section">
             
-            <div class="simple-login-container">
+            <div class="simple-login-container">                
 
-                <div class="form-selector">
+                <div class="form-selector-wrapper">
+                        <div class="form-selector btn-group btn-group-toggle" data-toggle="buttons">
+                            
+                            <label class="btn btn-primary btn-lg active" for="">
+                                <input type="radio" name="options" id="option1" autocomplete="off" checked> 
+                                    <a data-toggle="tab" href="#medico-options">Sou médico</a>
+                            </label>
+                            <label class="btn btn-lg btn-primary">
+                                <input type="radio" name="options" id="option2" autocomplete="off">
+                                    <a data-toggle="tab" href="#tutor-options">Sou tutor</a>
+                            </label>
+                            
+                        </div>
+                </div>
+                
+
+                <!--<div class="form-selector">
                     <div class="row">
                         <div class="col-md-14 form-group">
                                 <ul class="nav nav-pills" >
@@ -66,11 +83,11 @@
                                 </ul>
                         </div>  
                     </div>
-                </div>
+                </div>-->
 
                 <div class="tab-content">
 
-                        <div id="medico-options" class="tab-pane fade in active">
+                        <div id="medico-options" class="medico-options tab-pane fade in active">
                             <form action="#">
                                     <div class="form-group">
                                         <div class="row">
